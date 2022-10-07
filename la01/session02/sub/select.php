@@ -33,7 +33,7 @@ require_once('config.php');
                 $sql = "SELECT * FROM mata_kuliah";
                 $result = mysqli_query($conn, $sql);
 
-                var_dump(mysqli_num_rows($result));
+                // var_dump(mysqli_num_rows($result));
                 if (mysqli_num_rows($result) > 0) {
                     var_dump(mysqli_num_rows($result) > 0);
                     while ($row = mysqli_fetch_array($result)) {
