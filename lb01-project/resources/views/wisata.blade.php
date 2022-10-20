@@ -1,0 +1,1 @@
+<h1>Tempat Wisata {{$wisata}}</h1>
